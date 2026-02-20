@@ -1,0 +1,8 @@
+pandas>=1.3
+numpy
+openpyxl
+python-dateutil
+matplotlib
+seaborn
+scikit-learn
+jupyterlab
