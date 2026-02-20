@@ -1,1 +1,41 @@
+# Proyecto Python
+## Exploración de Patrones y Tendencias en Datos de Pacientes Oncológicos
+
+**Resumen del proyecto**  
+El objetivo del proyecto es **limpiar, explorar y analizar** un dataset clínico para **identificar patrones, tendencias y variables que impactan en la supervivencia, el diagnóstico temprano y la eficacia de los tratamientos**. El dataset proviene de Kaggle y contiene aproximadamente **20 campos** y **10k filas**, con información demográfica, clínica, tratamientos y resultados.
+
+> El dataset corresponde a una base extraída de Kaggle, que recopila información médica de pacientes oncológicos en China.
+
+---
+
+## Objetivos específicos
+1. Evaluar la **calidad de datos** (nulos, outliers, inconsistencias) y documentar reglas de limpieza.  
+2. Realizar **análisis exploratorio** para identificar patrones demográficos y clínicos relevantes.  
+3. Investigar relaciones entre variables clínicas y **SurvivalStatus**; proponer variables predictoras.  
+4. Probar enfoques básicos de **predicción / clasificación** (ej. modelos supervisados) para una variable objetivo seleccionada.  
+5. Realizar **segmentación** para encontrar grupos de pacientes con características y necesidades similares.  
+6. Entregar **insights accionables** y visualizaciones que puedan presentarse en entrevistas y dashboards.
+
+---
+
+## Estructura del repositorio (esperada)
+- `china_cancer_patients_synthetic_Grupo1.xlsx` — archivo de datos original (colócalo en la raíz).
+- `notebooks/` — notebooks con EDA, limpieza y modelos (Jupyter).
+- `output/` — resultados exportados (CSV, imágenes).
+- `docs/` — documentación (incluye `data_dictionary.md`).
+- `requirements.txt` — dependencias del proyecto.
+
+---
+
+## Requisitos e instalación
+Crear y activar un entorno virtual, luego instalar dependencias:
+```bash
+python -m venv venv
+# Linux / macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
 
